@@ -117,6 +117,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="fiducials\amoeba-default.pdf" />
     <None Include="packages.config" />
@@ -164,6 +165,10 @@
     <Content Include="haarcascades\haarcascade_righteye_2splits.xml" />
     <Content Include="haarcascades\haarcascade_smile.xml" />
     <Content Include="haarcascades\haarcascade_upperbody.xml" />
+    <None Include="Resources\RedLedOn1.png" />
+    <None Include="Resources\RedLedOff1.png" />
+    <None Include="Resources\RedLedOn.png" />
+    <None Include="Resources\RedLedOff.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="packages\Accord.3.8.0\build\Accord.targets" Condition="Exists('packages\Accord.3.8.0\build\Accord.targets')" />
