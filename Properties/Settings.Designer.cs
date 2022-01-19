@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace govnosoft1.Properties
+namespace Litography.Properties
 {
 
 
